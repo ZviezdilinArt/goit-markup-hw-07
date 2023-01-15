@@ -1,28 +1,44 @@
 :root {
+    /* color */
+    
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --white-text-color: #FFFFFF;
     --white-bgn-color: #FFFFFF;
     --primary-bgn-color: #E5E5E5;
     --secondary-bgn-color: #F4F4FD;
+    --brand-color: #4D5AE5;
+    --brand-hover-color: #404BBF;
+    --icon-color: #AFB1B8;
+    --secondary-icon-color: #F4F4FD;
+    --overlay-text-color: #F4F4FD;
+
+     /* footer */
+
     --footer-bgn-color: #2E2F42;
     --footer-logo-color: #F4F4FD;
     --footer-text-color: #E7E9FC;
     --footer-icons-color: rgba(255, 255, 255, 0.1);
     --footer-icons-hover: #31D0AA;
+    
+    --subscribe-border-color: rgba(255, 255, 255, 0.3);
+    --subscribe-form-text-color: rgba(255, 255, 255, 0.6);
+    
+    /* borders */
+
     --border-color:#E7E9FC;
     --border-secondary-color: #F4F4FD;
-    --brand-color: #4D5AE5;
-    --brand-hover-color: #404BBF;
     --border-icons-color: #8E8F99;
-    --icon-color: #AFB1B8;
-    --secondary-icon-color: #F4F4FD;
-    --overlay-text-color: #F4F4FD;
-    --border-radius: 4px;
+    
+    
+    /* Text */
+
     --line-height-text: 1.5;
     --font-weight-primary: 600;
-    --font-size-primary: 16px;
     --font-size-secondary: 20px; 
+    
+    /* modal */
+
     --modal-index: 1000;
     --modal-bgn-color: #FCFCFC;
     --modal-btn-bgn-color: #E7E9FC;
@@ -30,10 +46,9 @@
     --modal-text-color: #8E8F99;
     --modal-icon-color: #2E2F42;
     --secondary-modal-text-color: #757575;
+    
+    /* animation */
     --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --subscribe-border-color: rgba(255, 255, 255, 0.3);
-    --subscribe-form-text-color: rgba(255, 255, 255, 0.6);
-
 }
 
 body {
@@ -181,6 +196,8 @@ img {
 }
 
 /* Main studio page*/
+
+/* Hero */
 
 .hero {
     background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -448,7 +465,7 @@ img {
     color: var(--brand-color);
     background-color: var(--secondary-bgn-color);
     letter-spacing: 0.04em;
-    font-size: var(--font-size-primary);
+    font-size: 16px;
     cursor: pointer;
     
     transition: color var(--anim), background-color var(--anim), border-color var(--anim), box-shadow var(--anim);
