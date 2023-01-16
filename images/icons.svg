@@ -161,11 +161,7 @@
 </symbol>
 
 <!-- mobile icons -->
-<symbol id="icon-charm_menu-hamburger" viewBox="0 0 47 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.96 29.154h42.965M1.96 15.615h42.965M1.96 2.077h42.965"></path>
-</symbol>
-
-<symbol id="icon-menu-hamburger"viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<symbol id="icon-menu-hamburger" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
 clip-rule="evenodd"></path>
 </symbol>
