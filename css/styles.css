@@ -281,14 +281,14 @@ img {
 /* Hero */
 
 .hero {
-    background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/01_mobile/hero-bg-mobile-428.jpg);
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-size: 428px;
     background-repeat: no-repeat;
     background-position: center; 
     text-align: center;
     background-size: cover;
-    padding-top: 112px;
-    padding-bottom: 112px;
+    background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/01_mobile/hero-bg-mobile-428.jpg);
 
 }
 
@@ -319,16 +319,14 @@ screen and (min-width: 481px) and (min-resolution: 2dppx) {
 
   /* Desktop */
   @media screen and (min-width: 769px) {
-    .hero {
-        width: 1440рх;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; 
+    .hero { 
         text-align: center;
         padding-top: 192px;
         padding-bottom: 192px;
-        background-size: 1440px;
-        background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images//03_desktop/hero-bg-desktop-1440.jpg);
+        background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+        url(../images//03_desktop/hero-bg-desktop-1440.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }
 
@@ -337,6 +335,8 @@ screen and (min-width: 769px) and (min-resolution: 192dpi),
 screen and (min-width: 769px) and (min-resolution: 2dppx) {
     .hero {
         background:linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/03_desktop/hero-bg-desktop-2880.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
   }
 
