@@ -319,6 +319,7 @@ screen and (min-width: 481px) and (min-resolution: 2dppx) {
   /* Desktop */
   @media screen and (min-width: 769px) {
     .hero {
+        width: 1440рх;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
@@ -907,11 +908,12 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
     }
 }
 
-
 /* desktop */
 @media screen and (min-width: 1200px) {
     .footer-section {
         flex-wrap: nowrap;
+        margin-right: auto;
+        margin-left: auto;
     } 
 }
 
@@ -932,6 +934,7 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
 @media screen and (min-width: 1200px) {
     .footer-block {
         margin-right: 120px;
+        margin-left: 0;
     } 
 }
 
@@ -1399,6 +1402,7 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 24px;
     height: 24px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1467,6 +1471,11 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
     margin-top: 16px;
   }
   
+  .mobile-menu .active {
+      color: var(--brand-hover-color);
+      
+  }
+
   .mobile-menu-item {
     list-style-type: none;
   }
@@ -1551,15 +1560,3 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
     fill: currentColor;
   }
 
-  /* modal */
-  
-  @media screen and (orientation: landscape) {
-    .backdrop {
-      overflow: auto;
-    }
-  
-    .modal {
-      top: 2%;
-      transform: translateX(-50%);
-    }
-  }
