@@ -97,6 +97,7 @@ img {
     @media screen and (min-width: 1200px) {
         .container {
             max-width: 1200px;
+            width: 1158px;
             padding-left: 15px;
             padding-right: 15px;
         } 
@@ -914,6 +915,7 @@ screen and (min-width: 769px) and (min-resolution: 2dppx) {
         flex-wrap: nowrap;
         margin-right: auto;
         margin-left: auto;
+        column-gap: 0;
     } 
 }
 
